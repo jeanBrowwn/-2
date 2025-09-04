@@ -22,7 +22,7 @@ export const generateArchitecturalImage = async (projectData: ProjectData): Prom
   const ai = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
   
   // 모델 인스턴스 생성 방식 수정 (최신 안정 모델 사용)
-  const model = ai.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = ai.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 
   const { originalImage, conceptImage, location, requirements } = projectData;
 
