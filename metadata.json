@@ -1,0 +1,5 @@
+{
+  "name": "AI Architectural Virtual Synthesis System",
+  "description": "An AI-powered solution that synthesizes a new building design into an existing location through a 6-step interactive process, generating a photorealistic final image.",
+  "requestFramePermissions": []
+}
